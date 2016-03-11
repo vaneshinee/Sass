@@ -1,0 +1,28 @@
+header {
+  padding: 75px; }
+
+header img {
+  height: 40px; }
+header .navbar-brand {
+  padding: 5px 0; }
+
+.banner h1 {
+  padding: 10px; }
+
+header + section {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+  background-size: cover;
+  height: 435px;
+  background-position: 48% 59%;
+  background-image: url("../images/1920x665-1.jpg"); }
+
+header + button a {
+  border-radius: 20px; }
+
+.img-celular img {
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
