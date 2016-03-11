@@ -1,15 +1,12 @@
-header {
-  padding: 75px; }
-
 header img {
   height: 40px; }
 header .navbar-brand {
   padding: 5px 0; }
 
-.banner h1 {
-  padding: 10px; }
+.banner {
+  padding: 75px; }
 
-header + section {
+.banner {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
@@ -18,6 +15,41 @@ header + section {
   height: 435px;
   background-position: 48% 59%;
   background-image: url("../images/1920x665-1.jpg"); }
+
+.banner h1, .banner p, .banner ul {
+  padding: 2% 0; }
+
+.banner button {
+  border-radius: 50px; }
+
+.contenedor1, .contenedor2 {
+  padding: 4% 0 3%;
+  background-color: #F6F6F6;
+  margin-top: 45px; }
+
+.contenedor2 .row:first-child {
+  padding: 0 0 6%;
+  text-align: center; }
+
+.contenedor2 .row:nth-child(2) .img-celular {
+  padding-top: 4%; }
+
+.contenedor2 .box-text {
+  padding: 0 18% 10% 0; }
+
+footer {
+  text-align: center;
+  padding: 2%; }
+
+footer .icon-redes {
+  border-radius: 50%;
+  border: 1px solid #2FB2FF;
+  font-size: 18px;
+  color: #2FB2FF;
+  margin: 0 3px 0; }
+footer p {
+  padding: 1%;
+  color: #9C8776; }
 
 header + button a {
   border-radius: 20px; }
